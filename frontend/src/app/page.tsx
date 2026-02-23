@@ -188,9 +188,10 @@ export default function Home() {
         </div>
       </section >
 
-      {/* Decorative Background Glows */}
-      < div className="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 dark:bg-blue-900/20 blur-[120px] -z-10 rounded-full" />
+      <div className="fixed top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 dark:bg-blue-900/20 blur-[120px] -z-10 rounded-full" />
       <div className="fixed bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-500/10 dark:bg-indigo-900/20 blur-[120px] -z-10 rounded-full" />
-    </div >
+    </div>
+  );
+}
   );
 }
